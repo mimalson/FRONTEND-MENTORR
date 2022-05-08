@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 0 150px;
+}
+.sideMenu {
+  width: 60vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 210;
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: white;
+}
+#color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 99;
+  display: none;
+}
+#menu {
+  display: none;
+}
+.logo {
+  height: 70%;
+}
+nav {
+  display: inline-block;
+  vertical-align: super;
+}
+.nav_items_list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav_item {
+  color: hsl(222, 6%, 54%);
+  font-size: 12px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.nav_item:hover::after {
+  content: "";
+  display: block;
+  background-color: hsl(26, 100%, 55%);
+  height: 3px;
+  position: relative;
+  top: 1.6rem;
+  z-index: 10;
+}
+.cart_account {
+  display: inline-flex;
+  width: 75px;
+  height: 50px;
+  position: absolute;
+  right: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart_account div h5 {
+  margin: 20px;
+}
+
+.cart_account div p {
+  display: block;
+  margin: calc(20%) calc(25%);
+  font-weight: bold;
+}
+.cart1 {
+  width: 16px;
+  cursor: pointer;
+}
+.avatar {
+  width: 30px;
+  cursor: pointer;
+}
+.avatar:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+}
+hr {
+  border: 0;
+  border-radius: 8px;
+  border-top: 3px solid hsl(223, 64%, 98%);
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: calc(50vw - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.slideshow-container{
+    z-index: 100;
+    position: absolute;
+    margin: 10px calc(20%);
+    display: none;
+}
+
+.close{
+    position: absolute;
+    right: 4vw;
+    top: -32px;
+    cursor: pointer;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous, .next{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px 22px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.previous{
+    left: 1.8rem;
+}
+
+.next{
+    right: 1.8rem;
+}
+
+.large img{
+    width: calc();
+}
