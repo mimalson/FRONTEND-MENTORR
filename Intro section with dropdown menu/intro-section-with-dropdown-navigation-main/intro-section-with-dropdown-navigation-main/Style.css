@@ -38,3 +38,19 @@ nav {
     user-select: none;
     position: relative;
 }
+
+.navigation-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expand {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
