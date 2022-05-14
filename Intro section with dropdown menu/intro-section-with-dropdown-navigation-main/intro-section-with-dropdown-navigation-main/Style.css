@@ -119,3 +119,26 @@ nav ul li {
 .dropdown div{
     margin: 0 0 10px 0;
 }
+
+/*===========BODY============*/
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 7vh 10vw;
+}
+
+.text-container {
+    height: 70vh;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.logos-container img {
+    margin-right: 50px;
+}
+
