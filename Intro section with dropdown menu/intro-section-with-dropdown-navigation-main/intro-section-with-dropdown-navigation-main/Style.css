@@ -142,3 +142,14 @@ nav ul li {
     margin-right: 50px;
 }
 
+.img-container {
+    width: 60vw;
+    height: 60vh;
+    background-image: url(images/image-hero-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-size: 44px;
+}
