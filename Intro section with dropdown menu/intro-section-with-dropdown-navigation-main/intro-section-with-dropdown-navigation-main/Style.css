@@ -54,3 +54,30 @@ nav {
     cursor: pointer;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: var(--medium-grey);
+}
+
+
+
+.logo {
+    margin-right: 10px;
+}
+
+.register {
+    border: 1px solid var(--medium-grey);
+    padding: 10px;
+    border-radius: 10px;
+}
