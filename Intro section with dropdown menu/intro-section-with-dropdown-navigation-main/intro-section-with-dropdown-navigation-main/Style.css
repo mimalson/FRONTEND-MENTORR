@@ -81,3 +81,41 @@ nav ul li {
     padding: 10px;
     border-radius: 10px;
 }
+.register:hover {
+    color: var(--almost-black);
+    border: 1px solid var(--almost-black);
+}
+
+.features {
+    position: relative;
+}
+
+.company {
+    position: relative;
+}
+
+/*========DROPDOWN==================*/
+
+.dropdown{
+    position: absolute;
+    width: 150px;
+    top: 30px;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    cursor: default;
+    transition: opacity .4s ease-in;
+}
+
+.dropdown.active {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.dropdown div{
+    margin: 0 0 10px 0;
+}
